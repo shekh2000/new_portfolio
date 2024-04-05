@@ -9,8 +9,8 @@ const Home = () => {
     to-gray-800'>
       <div className='max-w-screen-lg mx-auto flex flex-col
       items-center justify-center h-full px-4 md:flex-row'>
-        <div className='flex flex-col justify-center h-full'>
-          <h2 className='text-4xl sm:text-7xl font-bold text-white'>
+        <div className='pb-10 sm:p-0 flex flex-col justify-center'>
+          <h2 className='text-4xl sm:text-7xl font-bold sm:mt-0 mt-2  text-white'>
             I'm a Full Stack Developer
           </h2>
 
@@ -29,9 +29,9 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div className='md:mt-0'>
           <img src={HeroImage} alt="my profile"
-          className='rounded-2xl mx-auto w-2/3 md:w-full' style={{ width: '650px', height: '470px' }}/>
+          className='rounded-2xl md:w-2/3 w-4/5 mx-auto'/>
         </div>
       </div>
     </div>
